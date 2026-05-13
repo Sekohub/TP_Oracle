@@ -83,6 +83,8 @@ Lister les **3 employés les mieux payés de chaque département**. Utiliser une
 ### Q3. Quartiles de salaire
 Affecter chaque employé à un **quartile salarial global** (`NTILE(4)`). Afficher quartile, effectif, salaire min, salaire max par quartile.
 
+<img width="886" height="376" alt="image" src="https://github.com/user-attachments/assets/a99427a8-cd55-44c4-8a5d-66c14a970839" />
+
 ### Q4. Écart à la moyenne du département
 Pour chaque employé, afficher : salaire, **moyenne du département**, et **écart en %** entre les deux (positif = sur-payé). Utiliser `AVG() OVER (PARTITION BY ...)`.
 

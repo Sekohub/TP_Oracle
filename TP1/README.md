@@ -73,8 +73,12 @@ Toutes les requêtes doivent être exécutables telles quelles sur FreeSQL, sur 
 ### Q1. Classement intra-département
 Pour chaque employé, afficher : `last_name`, `department_id`, `salary`, et son **rang** (`RANK`) salarial **au sein de son département**. Trier par département puis rang.
 
+<img width="696" height="136" alt="image" src="https://github.com/user-attachments/assets/3fcaafba-93c3-48e3-8688-6c82475c779c" />
+
 ### Q2. Top-N par groupe
 Lister les **3 employés les mieux payés de chaque département**. Utiliser une fonction de fenêtrage et une CTE.
+
+<img width="1372" height="376" alt="image" src="https://github.com/user-attachments/assets/5efa0b5c-5fc6-4b62-b67f-5a7990f302f5" />
 
 ### Q3. Quartiles de salaire
 Affecter chaque employé à un **quartile salarial global** (`NTILE(4)`). Afficher quartile, effectif, salaire min, salaire max par quartile.

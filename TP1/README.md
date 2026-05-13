@@ -96,6 +96,8 @@ Trier les départements par masse salariale décroissante, et afficher pour chaq
 - masse cumulée (`SUM() OVER (ORDER BY ...)`)
 - part relative dans la masse totale (en %)
 
+<img width="990" height="476" alt="image" src="https://github.com/user-attachments/assets/56c3c12e-de77-4d39-ab5a-47099fee85e3" />
+
 ### Q6. Comparaison adjacente (LAG)
 Au sein de chaque département, ordonner les employés par salaire et afficher pour chaque employé l'**écart avec le salaire de l'employé immédiatement mieux payé** (`LAG`).
 

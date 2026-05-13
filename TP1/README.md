@@ -88,6 +88,8 @@ Affecter chaque employé à un **quartile salarial global** (`NTILE(4)`). Affich
 ### Q4. Écart à la moyenne du département
 Pour chaque employé, afficher : salaire, **moyenne du département**, et **écart en %** entre les deux (positif = sur-payé). Utiliser `AVG() OVER (PARTITION BY ...)`.
 
+<img width="2038" height="422" alt="image" src="https://github.com/user-attachments/assets/a2ab08ab-035d-470d-ba5f-644c1d10e16a" />
+
 ### Q5. Cumul et part relative
 Trier les départements par masse salariale décroissante, et afficher pour chaque département :
 - masse salariale

@@ -101,6 +101,8 @@ Trier les départements par masse salariale décroissante, et afficher pour chaq
 ### Q6. Comparaison adjacente (LAG)
 Au sein de chaque département, ordonner les employés par salaire et afficher pour chaque employé l'**écart avec le salaire de l'employé immédiatement mieux payé** (`LAG`).
 
+<img width="1456" height="250" alt="image" src="https://github.com/user-attachments/assets/9a4fe806-6204-4342-ace9-fb220a17e2fe" />
+
 ---
 
 # Partie 2 — CTE & requêtes hiérarchiques
